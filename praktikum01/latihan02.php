@@ -33,7 +33,6 @@ $racer_list = array(
     array(10, "Joko","5150", "Pons Racing")
 );
 
-#tulis isi array ke page
 foreach ($racer_list as $racer) {
     echo("<tr><td>" . $racer[0] . "</td><td>". $racer[1] ."</td><td>" 
     . $racer[2] ."</td><td>" . $racer[3] . "</td></tr>");
